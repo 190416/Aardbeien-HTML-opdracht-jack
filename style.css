@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+nav {
+
+position: fixed;
+width: 100vw;
+height: 9vh;
+text-align: initial;
+display: inline-block;
+align-content: center;
+background-color: #280000;
+
+z-index: 1;
+
+}
+
+h1 {
+  padding: 0;
+}
+
+.navbut {
+
+  float: left;
+
+  background-color: #280000;
+  background-image: none;
+  border-radius: 0px;
+  margin: 0px;
+  height: 9vh;
+  width: 9vw;
+  padding: 1vw;
+  border: none;
+
+  color: #FF6663;
+  text-align: center;
+  line-height: 4vh;
+  font-size: 4vh;
+  transition: 0.1s ease-in-out;
+  font-family: 'Oswald', sans-serif;
+
+}
+#Select {
+  color: rgb(13, 32, 0);
+  background-color: #9593D9;
+}
+#Select:hover {
+  background-color: rgb(184, 181, 247);
+}
+.navbut:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+
+padding: 0px;
+margin: 0px;
+
+}
+
+p {
+  margin: 0px;
+  font-size: 6vh;
+  width: 100%;
+  
+}
+
+p.small {
+
+ color: rgb(42, 42, 42);
+ font-size: 4vh;
+ margin: 0px;
+ padding: 0;
+
+}
+
+p.Big {
+  font-size: 5vw;
+}
+
+.Title {
+
+font-family: 'Oswald', sans-serif;
+text-align: center;
+font-size: 15vw;
+color: #FDFFFF;
+background-image: url(Img/aardbeien.jpg);
+background-attachment: fixed;
+background-size: 150vw;
+margin: 0px;
+padding-top: 10vh;
+padding-bottom: 10vh;
+width: 100%;
+transition: 0.5s ease-in-out;
+
+}
+
+.Title2 {
+
+font-family: 'Oswald', sans-serif;
+text-align: initial;
+font-size: 3vw;
+color: black;
+background-color: #FDFFFF;
+margin: 0px;
+padding-top: 12vh;
+padding-bottom: 5vh;
+width: 100%;
+transition: 0.5s ease-in-out;
+}
+.Title3 {
+
+font-family: 'Oswald', sans-serif;
+text-align: center;
+font-size: 10vw;
+color: #FDFFFF;
+background-image: url(Img/aardbeien.jpg);
+background-attachment: fixed;
+background-size: 150vw;
+margin: 0;
+padding-top: 7.5vh;
+padding-bottom: 1vh;
+width: 100%;
+transition: 0.5s ease-in-out;
+}
+
+
+.Title:hover {
+
+font-family: 'Oswald', sans-serif;
+text-align: center;
+font-size: 15vw;
+color: #FDFFFF;
+background-image: url(Img/aardbeien.jpg);
+background-attachment: fixed;
+background-size: 150vw;
+margin: 0px;
+padding-top: 25vh;
+padding-bottom: 30vh;
+width: 100%;
+transition: 0.5s ease-in-out;
+filter: none;
+}
+
+#Weetje {
+
+font-size: 3vw;
+color: rgb(99, 99, 99);
+background-color: #FDFFFF;
+transition: 0.5s ease-in;
+
+}
+
+#Weetjesmain {
+
+background-image: url(Img/aardbeien.jpg);
+background: linear-gradient(90deg, rgba(253,255,255,1) 21%, rgba(219,169,202,1) 100%);  width: 99vw;
+  padding-top: 0vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  align-items: center;
+
+}
+
+#Weetjes {
+
+  width: 10vw;
+
+
+}
+
+#rightimg {
+
+  width: 10vw;
+
+
+}
+
+#Gevaar {
+  
+
+  width: 96%;
+  height: 27vh;
+  margin: 0px;
+  padding: 2%;
+
+  background: rgb(253,255,255);
+  background: linear-gradient(60deg, rgba(253,255,255,1) 21%, rgba(219,169,202,1) 100%);
+
+}
+
+.About {
+  background-color: #280000;
+  color: rgb(119, 117, 117);
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  font-size: 4vh;
+  display: flex;
+}
+
+.Best {
+
+font-family: 'Oswald', sans-serif;
+font-size: 5vh;
+padding-top: 1vh;
+padding-bottom: 5vh;
+width: 96vw;
+align-items: center;
+padding-left: 1vw;
+
+}
+
+.Top {
+
+  background-color: #FDFFFF;
+  display: inline-block;
+  width: 90vw;
+  padding-left: 0vw;
+  text-align: center;
+
+}
+
+.IMG {
+
+  background-color: gray;
+  border-radius: 25px;
+  padding: 5px;
+  width: 14vw;
+  height: 14vw;
+  margin-left: 0vw;
+  transition: 0.1s ease-in-out;
+  align-self: center;
+
+  
+}
+
+
+button {
+  padding: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  background-color: rgb(255, 255, 255);
+  transition: 0.1s ease-in-out;
+}
+button:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+#Gevaren {
+  padding: 0;
+  margin: 0;
+}
+
+#Klimaat {
+  padding: 0;
+  padding-top: 0.01vw;
+  background-color: rgb(230, 45, 42);
+  font-size: 3vw;
+  background-image: url(Img/Klimaatverandering.jpg);
+  background-size: 150vw;
+  background-position: center;
+}
+#Pesticiden {
+  padding: 0;
+  padding-top: 0.01vw;
+  background-color: rgb(42, 230, 73);
+  font-size: 3vw;
+  background-image: url(Img/Pesticiden.jpg);
+  background-size: 150vw;
+  background-position: center;
+}
+
+#Klimaat h2 {
+  background-color: rgba(255, 255, 255, 0.678);
+  width: 100vw;
+  padding: 0;
+}
+#Klimaat span {
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  padding: 0;
+}
+.Bron {
+  font-size: 2vw;
+  text-align: right;
+  align-self: flex-end;
+  width: 100vh;
+}
+
+.textblock {
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+}
+
+a {
+  color: #9593D9;
+}
+a:hover {
+    color: #5F00BA;
+}
+.Quizvraag {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
