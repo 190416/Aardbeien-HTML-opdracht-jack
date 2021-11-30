@@ -304,3 +304,10 @@ a:hover {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+#Annanas {
+  padding-left: 0;
+}
+#Annanas:focus {
+  margin-left: 100vw;
+  width: 0;
+}
