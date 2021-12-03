@@ -10,7 +10,7 @@
 <nav>
   <button class="navbut">Home</button>
   <button class="navbut" onclick="location.href='Gevaren.html';">Gevaren</button>
-  <button id="Select" onclick="location.href='Quiz.html';">Quiz</button>
+  <button class="navbut" id="Select" onclick="location.href='Quiz.html';">Quiz</button>
   <button class="navbut">About</button>
 </nav>
 
@@ -22,26 +22,26 @@
     <div id="Quiz">
       <div class="Quizvraag"> 
         Wat is je favoriete eten?
-        <button class="vraag" onclick="Antwoord(1, 1)">Patat</button>
-        <button class="vraag" onclick="Antwoord(1, 2)">Aardbeien</button>
-        <button class="vraag"onclick="Antwoord(1, 3)">Aardappel</button>
-        <button class="vraag"onclick="Antwoord(1, 4)">Jam</button>
+        <button id="vraag1"class="vraag" onclick="Antwoord(1, 1)">Patat</button>
+        <button id="vraag2"class="vraag" onclick="Antwoord(1, 2)">Aardbeien</button>
+        <button id="vraag3"class="vraag"onclick="Antwoord(1, 3)">Aardappel</button>
+        <button id="vraag4"class="vraag"onclick="Antwoord(1, 4)">Jam</button>
       </div>
       <div class="Quizvraag"> 
         Wat is je favoriete kleur?
-        <button class="vraag" style="background-color: gray;"onclick="Antwoord(2, 1)">Zwart</button>
-        <button class="vraag"style="background-color: red;"onclick="Antwoord(2, 2)">Rood</button>
-        <button class="vraag"style="background-color: yellow;"onclick="Antwoord(2, 3)">Goud</button>
-        <button class="vraag"style="background-color: brown;"onclick="Antwoord(2, 3)">Bruin</button>
+        <button id="vraag5"class="vraag" onclick="Antwoord(2, 1)">Zwart</button>
+        <button id="vraag6"class="vraag"onclick="Antwoord(2, 2)">Rood</button>
+        <button id="vraag7"class="vraag"onclick="Antwoord(2, 3)">Goud</button>
+        <button id="vraag8"class="vraag"onclick="Antwoord(2, 4)">Bruin</button>
       </div>
       <div class="Quizvraag"> 
         Welke topping op pizza
-        <button class="vraag">Niks</button>
-        <button class="vraag">Aardbei</button>
+        <button id="vraag9"class="vraag"onclick="Antwoord(3, 1)">Niks</button>
+        <button id="vraag10"class="vraag"onclick="Antwoord(3, 2)">Aardbei</button>
         <button id="Annanas" class="vraag">Annanas</button>
       </div>
     </div>
-      <div id="Antwoord">Wat ben jij?! <p id="antwoord">000</div>         <button class="vraag" onclick="Show()">Laat het antwoord zien!</button>
+      <div id="Antwoord">Wat ben jij?! <p id="ant">000</div>         <button class="vraag" onclick="Show()">Laat het antwoord zien!</button>
       
     <script src="script.js"></script>
   </body>

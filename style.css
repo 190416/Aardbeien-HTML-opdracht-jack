@@ -303,11 +303,17 @@ a:hover {
 .Quizvraag {
   padding-top: 1%;
   padding-bottom: 1%;
+  background-color: lightgray;
+}
+.vraag {
+  background-color: rgb(182, 179, 179);
+}
+.vraagbeantwoord {
+  background-color: greenyellow;
 }
 #Annanas {
   padding-left: 0;
 }
 #Annanas:focus {
-  margin-left: 100vw;
-  width: 0;
+  opacity: 0;
 }
