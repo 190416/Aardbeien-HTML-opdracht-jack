@@ -4,7 +4,7 @@ nav {
 
 position: fixed;
 width: 100vw;
-height: 9vh;
+height: 6vh;
 text-align: initial;
 display: inline-block;
 align-content: center;
@@ -26,9 +26,9 @@ h1 {
   background-image: none;
   border-radius: 0px;
   margin: 0px;
-  height: 9vh;
+  height: 6vh;
   width: 9vw;
-  padding: 1vw;
+  padding: 0vw;
   border: none;
 
   color: #FF6663;
@@ -39,6 +39,27 @@ h1 {
   font-family: 'Oswald', sans-serif;
 
 }
+
+.but {
+
+  background-color: #280000;
+  background-image: none;
+  border-radius: 0px;
+  margin: 0px;
+  height: 9vh;
+  width: 32vw;
+  padding: 0;
+  border: none;
+
+  color: #FF6663;
+  text-align: center;
+  line-height: 4vh;
+  font-size: 4vh;
+  transition: 0.1s ease-in-out;
+  font-family: 'Oswald', sans-serif;
+
+}
+
 #Select {
   color: rgb(13, 32, 0);
   background-color: #9593D9;
@@ -53,7 +74,6 @@ h1 {
 
 body {
   font-family: 'Oswald', sans-serif;
-
 padding: 0px;
 margin: 0px;
 
@@ -136,8 +156,8 @@ background-image: url(Img/aardbeien.jpg);
 background-attachment: fixed;
 background-size: 150vw;
 margin: 0px;
-padding-top: 25vh;
-padding-bottom: 30vh;
+padding-top: 15vh;
+padding-bottom: 23vh;
 width: 100%;
 transition: 0.5s ease-in-out;
 filter: none;
@@ -191,12 +211,14 @@ background: linear-gradient(90deg, rgba(253,255,255,1) 21%, rgba(219,169,202,1) 
 }
 
 .About {
-  background-color: #280000;
+  background-color: #110000;
   color: rgb(119, 117, 117);
-  padding-bottom: 1vh;
-  padding-top: 1vh;
-  font-size: 4vh;
+  padding-bottom: 0vh;
+  padding-top: 0vh;
   display: flex;
+}
+.About p{
+  font-size: 3vh;
 }
 
 .Best {
@@ -205,7 +227,7 @@ font-family: 'Oswald', sans-serif;
 font-size: 5vh;
 padding-top: 1vh;
 padding-bottom: 5vh;
-width: 96vw;
+width: 80vw;
 align-items: center;
 padding-left: 1vw;
 
@@ -218,6 +240,16 @@ padding-left: 1vw;
   width: 90vw;
   padding-left: 0vw;
   text-align: center;
+
+}
+
+.Navmain {
+  margin: 0;
+  background-color: #280000;
+  width: 100vw;
+  padding-left: 0vw;
+  text-align: center;
+  justify-content: space-evenly;
 
 }
 
@@ -303,10 +335,10 @@ a:hover {
 .Quizvraag {
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: lightgray;
+  background-color: rgb(255, 255, 255);
 }
 .vraag {
-  background-color: rgb(182, 179, 179);
+  background-color: rgb(255, 255, 255);
 }
 .vraagbeantwoord {
   background-color: greenyellow;
