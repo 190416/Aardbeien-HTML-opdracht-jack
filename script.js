@@ -1,9 +1,7 @@
 
-
-
 //Random weetjes
 
-var weetjes = Array("Aardbeien zijn super lekker!", "Welkom bij aardbeien.nl", "Wist je dat aardbeien voor 89% uit water bestaan", "Wist je dat 9/10 van onze specialisten zeggen dat aardbeien lekker zijn", "Weetje: met aardbeien kun je super lekkere jam maken!", "Weetje: Aardbeien zijn rood, als ze dat niet zijn zijn ze niet meer goed", "De perfecte site voor aardbeien liefhebbers");
+var weetjes = Array("Aardbeien zijn super lekker!", "Welkom bij aardbeien.nl", "Wist je dat aardbeien voor 89% uit water bestaan", "Wist je dat 9/10 van onze specialisten zeggen dat aardbeien lekker zijn", "Weetje: met aardbeien kun je super lekkere jam maken!", "Weetje: Aardbeien zijn rood, als ze dat niet zijn zijn ze niet meer goed", "De perfecte site voor aardbeien liefhebbers", "Brazilie staad bekent om zijn grote aardbeien!");
 
 var quizantwoord = Array("Een mens","Een aardbei","Een aardappel","Pindakaas","Verbrande patat","Verrote aardbei","De gouden aardbei","Teer");
 
@@ -103,6 +101,10 @@ if (Vraag1 == 4) {
 
 }
 function Show() {
+
+
+
+
   resultaat = "PATATJE";
 
   resultaat = quizantwoord[Ant];
@@ -110,4 +112,5 @@ function Show() {
   document.getElementById("ant").innerHTML = resultaat;
 
 }
+
 
