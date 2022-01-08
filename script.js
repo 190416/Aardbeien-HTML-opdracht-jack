@@ -83,7 +83,7 @@ if (Vraag1 == 2) {
     Ant = 1;
   }else if (Vraag2 == 1 || Vraag2 == 4) {
     Ant = 5;
-  }else  if (Vraag3 == 3) {
+  }else  if (Vraag2 == 3) {
     Ant = 6;
   }
 }else

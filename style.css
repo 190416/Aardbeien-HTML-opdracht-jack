@@ -100,7 +100,9 @@ body {
   margin: 0px;
   width: 100%;
   background: #ffffff00;
-
+  background-image: url(Img/aardbeien.jpg);
+  background-attachment: fixed;
+  background-size: 150vh;
   display: flex;
   position: relative;
   align-items: inherit;
@@ -140,7 +142,6 @@ font-family: 'Oswald', sans-serif;
 text-align: center;
 font-size: 15vw;
 color: #FDFFFF;
-background-image: url(Img/aardbeien.jpg);
 background-attachment: fixed;
 background-size: 150vw;
 margin: 0px;
@@ -200,7 +201,6 @@ font-family: 'Oswald', sans-serif;
 text-align: center;
 font-size: 10vw;
 color: #FDFFFF;
-background-image: url(Img/aardbeien.jpg);
 background-attachment: fixed;
 background-size: 150vw;
 margin: 0;
@@ -223,8 +223,7 @@ transition: 0.5s ease-in;
 
 #Weetjesmain {
 
-background-image: url(Img/aardbeien.jpg);
-background: linear-gradient(90deg, rgba(253,255,255,1) 21%, rgba(219,169,202,1) 100%);  width: 96vw;
+background: rgba(255, 255, 255, 0.35);  width: 99%;
   padding-top: 0vh;
   padding-bottom: 2vh;
   padding-left: 1vw;
@@ -266,6 +265,15 @@ background: linear-gradient(90deg, rgba(253,255,255,1) 21%, rgba(219,169,202,1) 
   padding-top: 0vh;
   display: flex;
 }
+.About2 {
+  background-color: #110000cb;
+  color: rgb(173, 173, 173);
+  padding-bottom: 4vh;
+  padding-top: 4vh;
+  width: 90%;
+  align-self: center;
+  border-radius: 5%
+}
 .About p{
   font-size: 3vh;
 }
@@ -274,17 +282,19 @@ background: linear-gradient(90deg, rgba(253,255,255,1) 21%, rgba(219,169,202,1) 
 
 font-family: 'Oswald', sans-serif;
 font-size: 5vh;
+padding: 0;
 padding-top: 1vh;
 padding-bottom: 5vh;
-width: 80vw;
+width: 96vw;
 align-items: center;
 padding-left: 1vw;
+background-color: rgba(255, 255, 255, 0.35);
 
 }
 
 .Top {
 
-  background-color: #FDFFFF;
+  background-color: rgba(253, 255, 255, 0);
   display: inline-block;
   width: 90vw;
   padding-left: 0vw;
@@ -295,11 +305,11 @@ padding-left: 1vw;
 .Navmain {
   margin: 0;
   width: 100%;
-  height: 12.5vh;
+  height: 13vh;
   padding: 4vh;
   padding-left: 0;
   padding-right: 0;
-  background-color: rgb(43, 43, 43);
+  background-color: rgba(43, 43, 43, 0.418);
   z-index: 0;
   text-align: center;
   justify-content: space-evenly;
@@ -334,27 +344,36 @@ button:hover {
 }
 
 #Gevaren {
-  padding: 0;
+  padding: 3%;
   margin: 0;
+  width: 90%;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.432);
+  border-radius: 5%;
 }
 
 #Klimaat {
-  padding: 0;
+  padding: 2vw;
   padding-top: 0.01vw;
   background-color: rgb(230, 45, 42);
   font-size: 3vw;
   background-image: url(Img/Klimaatverandering.jpg);
   background-size: 150vw;
   background-position: center;
+  border-radius: 5%;
+  margin-bottom: 2vh;
 }
 #Pesticiden {
-  padding: 0;
+  padding: 2vw;
   padding-top: 0.01vw;
   background-color: rgb(42, 230, 73);
   font-size: 3vw;
   background-image: url(Img/Pesticiden.jpg);
   background-size: 150vw;
   background-position: center;
+  border-radius: 5%;
+  margin-bottom: 2vh;
+
 }
 
 #Klimaat h2 {
@@ -375,7 +394,7 @@ button:hover {
 }
 
 .textblock {
-  background-color: rgba(0, 0, 0, 0.493);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
 }
 
@@ -396,9 +415,12 @@ a:hover {
 #Quiz {
   color: white;
   text-align: center;
-  background-color: rgb(25, 25, 34);
+  background-color: rgba(25, 25, 34, 0.959);
   z-index: 0;
-  height: 80vh;
+  height: 70vh;
+  width: 90%;
+  align-self: center;
+  border-radius: 5%;
 }
 
 #Annanas {
@@ -458,7 +480,7 @@ a:hover {
     var(--rotate)
     , #ff5d5d, #ff5d5d 43%, #c20078);
     position: absolute;
-    z-index: -1;
+    z-index: -5;
     top: -5%;
     left: -2%;
     animation: spin 2.5s linear infinite;
@@ -469,7 +491,7 @@ a:hover {
   content: "";
   left: 0;
   right: 0;
-  z-index: -1;
+  z-index: -4;
   height: 100%;
   width: 100%;
   margin: 0 auto;
