@@ -224,4 +224,14 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-
+function popup(url, amount) 
+{
+  var int = amount
+  while (int > 0) {
+  var i = Math.random();
+       newwindow=window.open(url,i,'height=170,width=800');
+       if (window.focus) {newwindow.focus()}
+       return false;
+  int--;
+  }
+}
