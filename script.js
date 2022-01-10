@@ -226,12 +226,17 @@ particlesJS("particles-js", {
 
 function popup(url, amount) 
 {
-  var int = amount
-  while (int > 0) {
   var i = Math.random();
        newwindow=window.open(url,i,'height=170,width=800');
        if (window.focus) {newwindow.focus()}
+       annoyance(newwindow);
        return false;
-  int--;
-  }
 }
+
+function annoyance(windowtouse) {
+       windowtouse.moveTo(windowtouse.screen.availWidth/2
+,windowtouse.screen.availHeight/2
+);
+}
+
+
