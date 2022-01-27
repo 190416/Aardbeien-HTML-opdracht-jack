@@ -19,7 +19,9 @@
   background-position: 50% 50%;
 }
 
-
+iframe {
+  z-index: 10000;
+}
 
 nav {
 
