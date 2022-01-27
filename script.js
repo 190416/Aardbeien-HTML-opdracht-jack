@@ -50,6 +50,16 @@ if (vraag == 3) {
   document.getElementById("vraag" + (antwoord+8)).className = "vraagbeantwoord";
 }
 
+const root = document.documentElement;
+ 
+document.addEventListener('mousemove', evt => {
+    let x = evt.clientX / innerWidth;
+    let y = evt.clientY / innerHeight;
+ 
+    root.style.setProperty('--mouse-x', x);
+    root.style.setProperty('--mouse-y', y);
+});
+
 
 
 
@@ -224,19 +234,23 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-function popup(url, amount) 
+
+function annoyance(windowtouse) {
+  windowtouse.moveTo(Math.floor(Math.random()*screen.width),Math.floor(Math.random()*screen.height));
+}
+
+
+function popup(url) 
 {
+  for (var I = 0; I<5; I++) {
   var i = Math.random();
        newwindow=window.open(url,i,'height=170,width=800');
        if (window.focus) {newwindow.focus()}
-       annoyance(newwindow);
-       return false;
-}
+       setInterval(annoyance,50,newwindow);
 
-function annoyance(windowtouse) {
-       windowtouse.moveTo(windowtouse.screen.availWidth/2
-,windowtouse.screen.availHeight/2
-);
+
+  }
+       return false;
 }
 
 

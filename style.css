@@ -99,7 +99,7 @@ h1 {
   font-size: 4vh;
   transition: 0.1s ease-in-out;
   font-family: 'Oswald', sans-serif;
-
+  float:
 }
 
 #Select {
@@ -236,7 +236,7 @@ transition: 0.5s ease-in-out;
 font-size: 3vw;
 color: rgb(99, 99, 99);
 background-color: rgba(253, 255, 255, 0.534);
-filter: blur(50%)
+filter: blur(50%);
 transition: 0.5s ease-in;
 
 }
